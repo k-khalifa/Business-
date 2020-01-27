@@ -1,0 +1,269 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+
+header #img{
+    background-image: url("images/bg-bak.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.lay-out{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 44px;
+}
+#img .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text span{
+    display: block;
+    font-size: 20px;
+}
+
+.text button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4ead51 !important;
+    color: #fff;
+    padding: 10px 35px;
+    border-color: #4ead51;
+    margin-top: 11px;
+}
+
+
+.sec-one{
+    margin: 40px auto;
+    text-align: left;
+}
+
+
+.sec-one .col-lg-4{
+    margin: 40px auto;
+}
+
+.sec-two{
+    margin: 40px auto;
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+
+.sec-two .title-two{
+    text-align: center;
+}
+
+.sec-two .title-two span{
+ color: #b6b6b6;
+}
+
+
+
+.sec-two .carde  .tite-card{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.sec-two .carde img{
+    width: 100%;
+
+}
+
+
+.sec-two .col-lg-4{
+    margin: 40px auto;
+}
+
+
+.sec-three{
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.sec-three .img-three{
+    background-image: url('images/p6.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.sec-three .text-three{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.sec-three button{
+    display: block;
+   
+    background-color: #4ead51 !important;
+    color: #fff;
+    padding: 10px 35px;
+    border-color: #4ead51;
+    margin-top: 11px;
+}
+
+
+.sec-four{
+    margin: 40px auto;
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+
+.sec-four .para {
+    background-color: #fff;
+    padding: 20px;
+    margin:  20px auto;
+    border-radius: 5px;
+}
+
+.sec-five .row{
+    text-align: center;
+}
+
+
+.sec-sex{
+    background-image: url('images/img-back.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.sec-sex .lay-out {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.sec-sex .text-sex{
+    color:#fff;
+    text-align: center;
+}
+
+.sec-sex .text-sex p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sec-sex .text-sex button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4ead51 !important;
+    color: #fff;
+    padding: 10px 35px;
+    border-color: #4ead51;
+    margin-top: 11px;
+}
+
+.sec-seven .row{
+    margin: 40px auto;
+}
+
+.sec-seven .title-seven{
+    text-align: center;
+}
+
+.sec-seven .title-seven span {
+    color: #b6b6b6;
+}
+
+
+.sec-eight{
+    background-color: #4ead51;
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+
+.sec-eight p{
+    margin: 0px;
+}
+
+.but-feel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    
+}
+
+.but-feel button{
+    padding: 20px;
+}
+
+.text-eight h3{
+    margin-bottom: 0px;
+}
+
+.text-eight{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+footer{
+    background-color:#1f2024;
+    padding: 40px;
+}
+
+
+
+
+
+footer  .col-lg-3{
+    color: #5f5e5e;
+}
+
+footer  .col-lg-3:first-of-type{
+    color: #bfbebe;
+}
+
+footer  .col-lg-3 h3{
+    color: #bfbebe;
+}
+
+footer  .col-lg-3 ul{
+    padding: 0px;
+}
+
+footer  .col-lg-3 ul li{
+  list-style: none;
+}
+
+
+.last-sec{
+    background-color:#151515;
+    padding: 20px;
+    color: #bfbebe;
+    text-align: center;
+}
+
+.last-sec p{
+    margin: 0px;
+}
